@@ -10,7 +10,7 @@ public class HelloController {
     @GetMapping("/hello")
     public ResponseEntity<String> hello()
     {
-        return ResponseEntity.ok("hello2    ");
+        return ResponseEntity.ok("hello2 ::  Docker Test Jagat ");
     }
 
 }
